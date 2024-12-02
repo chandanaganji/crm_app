@@ -1,0 +1,32 @@
+.chat-section {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .conversation {
+    margin-bottom: 20px;
+  }
+  
+  .message {
+    background: #f1f5f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+  }
+  

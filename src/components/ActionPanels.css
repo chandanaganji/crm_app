@@ -1,0 +1,30 @@
+.action-panels {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .panel {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .panel h3 {
+    margin-bottom: 15px;
+  }
+  
+  .panel button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .panel button:hover {
+    background-color: #0056b3;
+  }
+  

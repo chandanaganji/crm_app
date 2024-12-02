@@ -1,0 +1,35 @@
+.sidebar {
+    background-color: #0f172a;
+    color: white;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .logo {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .logo h3 {
+    margin: 0;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 15px 0;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .menu li:hover {
+    background-color: #1e293b;
+  }
+  
